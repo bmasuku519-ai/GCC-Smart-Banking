@@ -97,7 +97,7 @@ int findAccount(int AccountNumber)
     {
         if (HistoryUser == user)
         {
-            cout << "\nTransaction: " << HistoryDetails << endl;
+            cout << "Transaction: " << HistoryDetails << endl;
 
             cout << "Amount: R"
                  << HistoryAmount << endl;
@@ -120,7 +120,7 @@ void SavingsAccount(int user)
 
     do
     {
-        cout << "\n========== SAVINGS ACCOUNT ==========" << endl;
+        cout << "========== SAVINGS ACCOUNT ==========" << endl;
         cout << "1. Check Savings Balance" << endl;
         cout << "2. Deposit Into Savings" << endl;
         cout << "3. Withdraw From Savings" << endl;
@@ -193,7 +193,7 @@ void BuyAirtime(int user)
     string phoneNumber;
     double amount;
 
-    cout << "\n========== BUY AIRTIME ==========" << endl;
+    cout << "========== BUY AIRTIME ==========" << endl;
 
     cout << "1. Telkom" << endl;
     cout << "2. Vodacom" << endl;
@@ -244,7 +244,7 @@ void BuyAirtime(int user)
 
         addTransaction(user, "Airtime Purchase - " + network, amount);
 
-        cout << "\nAIRTIME PURCHASE SUCCESSFUL!" << endl;
+        cout << "AIRTIME PURCHASE SUCCESSFUL!" << endl;
         cout << "Network: " << network << endl;
         cout << "Phone Number: " << phoneNumber << endl;
         cout << "Airtime Amount: R" << amount << endl;
@@ -263,14 +263,14 @@ void BuyAirtime(int user)
 
     do
     {
-        cout << "\n========================================" << endl;
+        cout << "========================================" << endl;
         cout << "             GCC BANK MENU              " << endl;
         cout << "========================================" << endl;
 
         cout << "Welcome, " << Name << " "
              << Surname << endl;
 
-        cout << "\n1. Check Balance" << endl;
+        cout << "1. Check Balance" << endl;
         cout << "2. Deposit Money" << endl;
         cout << "3. Withdraw Money" << endl;
         cout << "4. Send Cash" << endl;
@@ -279,7 +279,7 @@ void BuyAirtime(int user)
         cout << "7. Buy Airtime" << endl;
         cout << "8. Logout" << endl;
 
-        cout << "\nEnter Your Choice: ";
+        cout << "Enter Your Choice: ";
         cin >> choice;
 
         switch (choice)
@@ -349,7 +349,7 @@ case 4:
     int recipientAccount;
     double TransferAmount;
 
-    cout << "\n========== SEND CASH ==========" << endl;
+    cout << "========== SEND CASH ==========" << endl;
 
     cout << "Enter Recipient Account Number: ";
     cin >> recipientAccount;
@@ -473,7 +473,7 @@ int main()
 
     do
     {
-        cout << "\n===================================" << endl;
+        cout << "===================================" << endl;
         cout << "          GCC BANK                 " << endl;
         cout << "===================================" << endl;
 
